@@ -152,13 +152,13 @@ $result = $conn->query($sql);
             <thead class="bg-gray-100 border-b-2 border-black">
                 <tr>
                     <th class="hidden lg:table-cell px-6 py-3 text-left text-sm font-semibold">Date</th>
-                    <th class="px-6 py-3 text-left text-sm font-semibold">Client</th>
-                    <th class="px-6 py-3 text-left text-sm font-semibold">Product</th>
+                    <th class="px-3 md:px-6 py-3 text-left text-sm font-semibold">Client</th>
+                    <th class="px-3 md:px-6 py-3 text-left text-sm font-semibold">Product</th>
                     <th class="hidden lg:table-cell px-6 py-3 text-left text-sm font-semibold">Quantity</th>
                     <th class="hidden md:table-cell px-6 py-3 text-left text-sm font-semibold">Total</th>
                     <th class="hidden lg:table-cell px-6 py-3 text-left text-sm font-semibold">Payment</th>
                     <th class="hidden md:table-cell px-6 py-3 text-left text-sm font-semibold">Status</th>
-                    <th class="px-6 py-3 text-left text-sm font-semibold">Actions</th>
+                    <th class="px-3 md:px-6 py-3 text-left text-sm font-semibold">Actions</th>
                 </tr>
             </thead>
             <tbody class="divide-y divide-gray-200">
