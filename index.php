@@ -1,0 +1,69 @@
+<?php 
+include 'includes/header.php';
+include 'includes/nav.php';
+
+// Start the session if not already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Check if user is logged in
+$isLoggedIn = isset($_SESSION['user_id']) && !empty($_SESSION['user_id']);
+
+if ($isLoggedIn) {
+    // Include sales dashboard for logged-in users
+    include 'pages/sales/list_sales.php';
+} else {
+    // Show landing page for non-logged-in users
+?>
+
+<div class="container mx-auto px-4 lg:px-16 py-8 lg:py-12 min-h-screen ibm-plex-sans-regular max-w-6xl">
+    <!-- Hero Content -->
+    <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center lg:gap-12 xl:gap-24">
+        <!-- Left Column -->
+        <div class="space-y-6 lg:space-y-8 w-full lg:w-1/2 text-center lg:text-left">
+            <div class="space-y-4 lg:space-y-6">
+                <i class='bx bxs-dog bx-tada text-4xl lg:text-6xl text-amber-950 block text-center lg:text-left'></i>
+                <h1 class="text-3xl lg:text-5xl font-bold leading-tight">
+                    Welcome to Makamithi VetCare Employee Portal
+                </h1>
+                <p class="text-base lg:text-lg text-gray-600">
+                    Manage appointments, patient records, and streamline your workflow efficiently with our VetCare system.
+                </p>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="flex justify-center lg:justify-start gap-4">
+              
+                <a href="<?php echo BASE_URL; ?>/auth/login.php" class="bg-yellow-400 px-6 lg:px-8 py-3 lg:py-4 rounded-full flex items-center gap-2 border-2 border-black text-black text-sm lg:text-base">
+                    Login
+                    <i class='bx bx-lock-alt text-lg'></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Column - Illustration Grid (Responsive Handling) -->
+        <div class="hidden lg:grid grid-cols-2 gap-4 lg:gap-8 w-1/2">
+            <div class="h-28 lg:h-56 w-28 lg:w-56">
+                <img src="<?php echo BASE_URL; ?>/assets/images/svgs/1.svg" alt="Mentor illustration" class="rounded-[4rem] rounded-br-[20rem] h-full w-full object-contain border-black border-2"/>
+            </div>
+            
+            <div class="h-28 lg:h-56 w-28 lg:w-56">
+                <img src="<?php echo BASE_URL; ?>/assets/images/svgs/2.svg" alt="Mentor illustration" class="h-full w-full rounded-full rounded-br-none object-contain border-black border-2"/>
+            </div>
+
+            <div class="h-28 lg:h-56 w-28 lg:w-56">
+                <img src="<?php echo BASE_URL; ?>/assets/images/svgs/3.svg" alt="Mentor illustration" class="h-full w-full rounded-full object-contain border-black border-2"/>
+            </div>
+            <div class="h-36 lg:h-72 w-20 lg:w-40">
+                <img src="<?php echo BASE_URL; ?>/assets/images/svgs/4.svg" alt="Mentor illustration" class="h-full w-full rounded-full border-black border-2 object-fit"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php
+}
+
+include 'includes/footer.php';
+?>

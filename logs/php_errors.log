@@ -1,0 +1,45 @@
+[13-Feb-2025 10:22:46 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:11 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:19 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:25 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:28 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:35 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:37 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:49 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:23:52 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:24:00 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:26:13 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:26:13 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:26:36 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:26:36 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:26:41 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:26:55 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:26:55 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:27:04 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:27:04 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:27:06 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:27:36 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:27:36 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:27:52 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:27:52 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:28:03 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:28:03 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:28:13 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:28:13 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:28:28 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:28:28 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:28:37 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:28:37 Europe/Paris] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/makamithi/www/includes/nav.php on line 2
+[13-Feb-2025 10:28:47 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:28:57 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:29:17 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:29:17 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/makamithi/www/includes/nav.php:273) in /home/makamithi/www/auth/middleware.php on line 36
+[13-Feb-2025 10:29:21 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:29:21 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/makamithi/www/includes/nav.php:273) in /home/makamithi/www/auth/middleware.php on line 36
+[13-Feb-2025 10:32:47 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:32:47 Europe/Paris] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/makamithi/www/includes/nav.php:273) in /home/makamithi/www/auth/middleware.php on line 36
+[13-Feb-2025 10:34:33 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:34:50 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:42:12 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:42:58 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
+[13-Feb-2025 10:43:10 Europe/Paris] PHP Warning:  Constant BASE_URL already defined in /home/makamithi/www/config/env.php on line 5
