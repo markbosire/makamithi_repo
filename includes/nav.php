@@ -37,6 +37,7 @@ if (isset($_SESSION['user_id'])) {
     <div class="flex items-center">
       <img src="<?php echo BASE_URL; ?>/assets/images/logo.svg" alt="Logo" class="h-10">
     </div>
+  <?php if(isset($_SESSION['user_id'])): ?>
     
     <!-- Hamburger Menu (Mobile) -->
     <div class="md:hidden">
@@ -46,6 +47,8 @@ if (isset($_SESSION['user_id'])) {
         </svg>
       </button>
     </div>
+
+<?php endif; ?>
     
     <?php if(isset($_SESSION['user_id'])): ?>
     <!-- Navigation Links (Desktop) -->
